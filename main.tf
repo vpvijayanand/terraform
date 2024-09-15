@@ -13,9 +13,10 @@ provider "google" {
   project = var.project_id
   region  = var.region
 }
-
+/*
 resource "google_storage_bucket" "my_bucket" {
   name     = "vijayanand_td_15092024"  # Ensure this name is globally unique
   location = var.region
   storage_class = "STANDARD"
 }
+*/
